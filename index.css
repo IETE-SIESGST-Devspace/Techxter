@@ -87,24 +87,50 @@ nav {
 
 /* key highlight section  */
 
-.keySection{
+.keySection {
   padding: 20px;
-  background-color: #101B13;
-  text-align: center;
+  background-color: #101b13;
 }
 
-.keySection h1{
+.keySection h1 {
+  text-align: center;
   position: relative;
-  margin-bottom: 20px;
-  font-size: 20px;
+  margin-bottom: 40px;
+  font-size: 30px;
   font-weight: 600;
 }
 
-.keyDiv{
+.keyFlexDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.keyDiv {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #289a5c;
-  width: 130px;
+  text-align: center;
+  margin: 0 0 50px 0;
+  width: 120px;
   height: 50px;
 }
+
+.keyNumber {
+  position: absolute;
+  top: -45px;
+  left: -5px;
+  font-size: 50px;
+  font-weight: 500;
+  color: #cfd6e3;
+}
+
+.keyPara {
+  font-size: 14px;
+}
+
 /* .keySection h1::after{
   position: absolute;
   top: 14px;
@@ -124,3 +150,82 @@ nav {
   height: 2px;
   width: 50px;
 } */
+
+/* ------------------- Testiomnial ----------------------  */
+
+.testiomonialDiv{
+  margin-bottom: 30px;
+}
+
+.testimonialPara {
+  border-radius: 10px;
+  text-align: left;
+  background-color: #289a5c;
+  padding: 15px;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.testimonialImg{
+  width: 70px;
+  height: 70px;
+  margin-right: 15px;
+}
+
+.testimonialSubDiv{
+  display: flex;
+  align-items: center;
+}
+
+.testimonialSubDiv h2{
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.testimonialSubDiv p{
+  font-size: 10px;
+}
+
+/* -------------- Contact Section -------------------  */
+
+.contactSection{
+  padding: 20px;
+  background-color: #15251D;
+}
+
+/* ------------------- FOOTER SECTION -------------------  */
+
+
+.subContactDiv{
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.contactLogo{
+  background-color: #289a5c;
+  padding: 10px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.subContactDiv p{
+  font-size: 12px;
+}
+
+.footer{
+  background-color: #15251D;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer img {
+  width: 150px;
+  height: auto;
+}
+
+.footer p{
+  margin-top: 15px;
+  font-size: 10px;
+}
