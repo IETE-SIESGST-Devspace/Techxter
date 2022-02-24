@@ -1,1 +1,88 @@
-/* css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.hero-section {
+  background-image: url("./assets/dawn\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+nav {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  width: auto;
+}
+
+.navList {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  background-color: #289a5c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  font-weight: 400;
+  transition: all 0.3s;
+  z-index: 10;
+}
+
+.navList li {
+  margin: 20px auto;
+}
+
+.navList li a:hover {
+  color: #101b13;
+  transition: 0.3s ease-in-out;
+}
+
+#cross {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.heroContent {
+  text-align: center;
+  padding: 0 20px;
+  height: 80%;
+}
+
+.heroContent img {
+  margin-top: 70px;
+}
+
+.heroContent h1 {
+  font-size: 16px;
+  margin: 20px 0;
+  font-weight: 600;
+}
+
+.heroContent p {
+  opacity: 0.8;
+  font-size: 12px;
+  margin: 20px 10px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+/* key highlight section  */
