@@ -86,3 +86,41 @@ nav {
 }
 
 /* key highlight section  */
+
+.keySection{
+  padding: 20px;
+  background-color: #101B13;
+  text-align: center;
+}
+
+.keySection h1{
+  position: relative;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.keyDiv{
+  background-color: #289a5c;
+  width: 130px;
+  height: 50px;
+}
+/* .keySection h1::after{
+  position: absolute;
+  top: 14px;
+  right: -2px;
+  content: '';
+  background-color: #289A5C;
+  height: 2px;
+  width: 50px;
+}
+
+.keySection h1::before{
+  position: absolute;
+  top: 14px;
+  left: -2px;
+  content: '';
+  background-color: #289A5C;
+  height: 2px;
+  width: 50px;
+} */
