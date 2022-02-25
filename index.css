@@ -215,10 +215,11 @@ nav {
   font-size: 30px;
   font-weight: 600;
 }
-.stats-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+
+.statsInfo {
+  width: fit-content;
+  margin: 0 auto;
+  font-weight: normal;
   font-size: 13px;
 }
 
@@ -339,9 +340,9 @@ nav {
   display: none;
 }
 
-/* ------------------- Testiomnial ----------------------  */
+/* ------------------- Testimonial ----------------------  */
 
-.testiomonialDiv {
+.testimonialDiv {
   margin-bottom: 30px;
 }
 
@@ -594,11 +595,35 @@ input:-internal-autofill-selected {
     justify-content: center;
   }
 
-  .option {
-    max-width: 150px;
+  .statsContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 700px;
+    margin: 50px auto;
   }
 
-  .testiomonialDiv {
+  .statsDiv {
+    width: 140px;
+    height: 140px;
+    background-color: #289a5c;
+    border-radius: 5px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .option {
+    max-width: 100px;
+  }
+
+  .contentDiv {
+    width: 140%;
+  }
+
+  .testimonialDiv {
     margin: 0 auto;
     max-width: 700px;
     margin-bottom: 40px;
@@ -615,6 +640,11 @@ input:-internal-autofill-selected {
 
   .testimonialSubDiv p {
     font-size: 12px;
+  }
+
+  form {
+    max-width: 700px;
+    margin: 0 auto;
   }
 
   .subContactDiv {
