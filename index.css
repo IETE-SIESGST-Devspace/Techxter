@@ -151,6 +151,8 @@ nav {
   width: 50px;
 } */
 
+/* ---------------- rules Section -------------------  */
+
 .rules{
   background: #15251D;
   padding: 15px;
@@ -185,6 +187,10 @@ nav {
   opacity: 0.6;
 }
 
+.active{
+  opacity: 1;
+}
+
 .borderTop{
   border-radius: 20px 0 0 0;
   margin-top: 0;
@@ -203,11 +209,29 @@ nav {
   background-color: #101B13;
   height: 280px;
   width: 68%;
+  padding: 0 10px;
   overflow-y: scroll;
 }
 
 .lists{
   list-style-type: upper-alpha;
+}
+
+.lists li {
+  margin: 10px 0 10px 10px;
+  font-size: 12px;
+}
+
+.heading{
+  font-size: 12px;
+}
+
+#Rules{
+  display: none;
+}
+
+#Guidelines{
+  display: none;
 }
 
 /* ------------------- Testiomnial ----------------------  */

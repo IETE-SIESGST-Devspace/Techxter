@@ -22,7 +22,7 @@
       </a>
       <ul class="navList">
         <li><a href="#">About</a></li>
-        <li><a href="#">Rules</a></li>
+        <li><a href="#rules">Rules</a></li>
         <li><a href="#">Schedule</a></li>
         <li><a href="#testimonial">Testimonial</a></li>
         <li><a href="#">Contact</a></li>
@@ -78,24 +78,24 @@
 
     <!-- ---------------- RULES SECTION ------------------ -->
 
-  <section class="rules">
+  <section class="rules" id="rules">
     <h1>Rules</h1>
     <div class="rulesContainer">
       <div class="optionDiv">
-        <div class="option borderTop">
+        <div class="option borderTop active" onclick="openDiv(event, 'Eligibility')">
           <i class='bx bxs-cog'></i>
           <p class="heading">Eligibility</p>
         </div>
-        <div class="option">
+        <div class="option" onclick="openDiv(event, 'Rules')">
           <i class='bx bxs-user'></i>
           <p class="heading">Rules</p>
         </div>
-        <div class="option borderBottom ">
+        <div class="option borderBottom" onclick="openDiv(event, 'Guidelines')">
           <i class='bx bx-infinite'></i>
           <p class="heading">Guidelines</p>
         </div>
       </div>
-      <!-- <div class="contentDiv">
+      <div class="contentDiv" id="Eligibility">
         <ol class="lists">
           <li>Submitted paper will be checked for plagiarism</li>
           <li>Submitted Papers must include the Name, Affiliation, E-mail ID, and Mobile number of the first author just below the title on the first page.</li>
@@ -104,14 +104,14 @@
           <li>Participants must submit the full-length paper in a maximum of four A4 size pages in IEEE paper format.
           </li>
         </ol>
-      </div> -->
-      <!-- <div class="contentDiv">
+      </div>
+      <div class="contentDiv" id="Rules">
         <ol class="lists">
           <li>Techxter is open for all streams of engineering & polytechnic students.</li>
           <li>Paper should not contain plagiarized content.</li>
         </ol>
-      </div> -->
-      <div class="contentDiv">
+      </div>
+      <div class="contentDiv" id="Guidelines">
         <ol class="lists">
           <li>To submit a paper you must fill the google form and upload your paper.
           </li>
