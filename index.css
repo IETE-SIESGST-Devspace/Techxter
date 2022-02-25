@@ -4,6 +4,7 @@
   padding: 0;
   font-family: "Poppins", sans-serif;
   color: #ffffff;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -66,6 +67,10 @@ nav {
 }
 
 .heroContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   text-align: center;
   padding: 0 20px;
   height: 80%;
@@ -92,7 +97,7 @@ nav {
 /* About Section */
 
 .about-section {
-  padding: 20px;
+  padding: 50px 20px;
   background-color: #15251d;
 }
 
@@ -124,7 +129,7 @@ nav {
 /* key highlight section  */
 
 .keySection {
-  padding: 20px;
+  padding: 50px 20px;
   background-color: #101b13;
 }
 
@@ -167,7 +172,7 @@ nav {
 
 /* Who Section */
 .who-section {
-  padding: 20px;
+  padding: 50px 20px;
   background-color: #15251d;
 }
 .who-section h1 {
@@ -193,7 +198,7 @@ nav {
 
 /* Statistics Section */
 .stats-section {
-  padding: 20px;
+  padding: 50px 20px;
   background-color: #101b13;
 }
 .stats-section h1 {
@@ -247,12 +252,12 @@ nav {
 
 .rules {
   background: #15251d;
-  padding: 15px;
+  padding: 50px 20px;
 }
 
 .rules h1 {
   text-align: center;
-  margin: 20px 0;
+  margin: 0 0 20px 0;
   font-size: 30px;
   font-weight: 600;
 }
@@ -367,13 +372,13 @@ nav {
 /* -------------- Contact Section -------------------  */
 
 .contactSection {
-  padding: 20px;
+  padding: 50px 20px;
   background-color: #15251d;
 }
 
 .contactSection h1 {
   text-align: center;
-  margin: 20px 0;
+  margin: 0 0 20px 0;
   font-size: 30px;
   font-weight: 600;
 }
@@ -615,6 +620,11 @@ input:-internal-autofill-selected {
     justify-content: center;
   }
 
+  .testimonialDiv{
+    margin: 0 auto;
+    max-width: 700px;
+  }
+
   .keyFlexDiv {
     display: grid;
     grid-template-columns: auto auto;
@@ -740,6 +750,10 @@ input:-internal-autofill-selected {
   .lists li {
     font-size: 14px;
     margin-left: 13px;
+  }
+
+  .testimonialDiv{
+    max-width: 1200px;
   }
 
   .testimonialPara {
