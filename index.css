@@ -26,6 +26,10 @@ nav {
   align-items: center;
 }
 
+.nav-list {
+  display: none;
+}
+
 .logo {
   height: 40px;
   width: auto;
@@ -86,6 +90,7 @@ nav {
 }
 
 /* About Section */
+
 .about-section {
   padding: 20px;
   background-color: #15251d;
@@ -554,6 +559,76 @@ input:-internal-autofill-selected {
 /* ------------ tablet size -------------  */
 
 @media (min-width: 768px) {
+  .statsContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 700px;
+    margin: 50px auto;
+  }
+
+  .statsDiv {
+    width: 140px;
+    height: 140px;
+    background-color: #289a5c;
+    border-radius: 5px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .option {
+    max-width: 100px;
+  }
+
+  .contentDiv {
+    width: 140%;
+  }
+
+  .testimonialDiv {
+    margin: 0 auto;
+    max-width: 700px;
+    margin-bottom: 40px;
+  }
+
+  form {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  nav {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .navList {
+    display: none;
+  }
+
+  .open {
+    display: none;
+  }
+
+  #cross {
+    display: none;
+  }
+
+  .nav-list {
+    list-style: none;
+    display: flex;
+  }
+
+  .nav-list li a {
+    margin-right: 20px;
+    font-weight: 600;
+    transition: 0.3s ease;
+  }
+
+  .nav-list li a:hover {
+    color: #15251d;
+  }
+
   .heroContent {
     margin: 0 auto;
     max-width: 600px;
@@ -595,35 +670,7 @@ input:-internal-autofill-selected {
     justify-content: center;
   }
 
-  .statsContent {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 700px;
-    margin: 50px auto;
-  }
-
-  .statsDiv {
-    width: 140px;
-    height: 140px;
-    background-color: #289a5c;
-    border-radius: 5px;
-    margin-bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .option {
-    max-width: 100px;
-  }
-
-  .contentDiv {
-    width: 140%;
-  }
-
-  .testimonialDiv {
+  .testiomonialDiv {
     margin: 0 auto;
     max-width: 700px;
     margin-bottom: 40px;
@@ -642,23 +689,20 @@ input:-internal-autofill-selected {
     font-size: 12px;
   }
 
-  form {
-    max-width: 700px;
-    margin: 0 auto;
-  }
-
   .subContactDiv {
-    width: 33%;
+    margin-right: 30px;
+    margin-bottom: 0;
   }
 
   .contactLogo {
-    margin-right: 20px;
+    margin-right: 10px;
   }
 
   .contactDiv {
     flex-direction: row;
     padding: 30px 0;
     max-width: 800px;
+    justify-content: center;
   }
 
   .footer-content {
@@ -671,4 +715,65 @@ input:-internal-autofill-selected {
 }
 
 @media (min-width: 1024px) {
+  nav {
+    max-width: 1200px;
+  }
+
+  section {
+    max-width: 1200;
+    margin: 0 auto;
+  }
+
+  .about-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .heroContent h1 {
+    font-size: 30px;
+  }
+
+  .heroContent p {
+    max-width: 400px;
+    font-size: 18px;
+    line-height: 50px;
+  }
+
+  .about-content p {
+    font-size: 16px;
+  }
+
+  .who-paras p {
+    font-size: 16px;
+  }
+
+  .lists li {
+    font-size: 14px;
+    margin-left: 13px;
+  }
+
+  .testimonialPara {
+    font-size: 14px;
+  }
+
+  .contactDiv {
+    max-width: 1200px;
+    padding: 70px 0;
+  }
+
+  .subContactDiv {
+    margin-right: 70px;
+  }
+
+  .contactLogo {
+    margin-right: 20px;
+  }
+
+  .subContactDiv p {
+    font-size: 14px;
+  }
+
+  .footer-content {
+    max-width: 1200px;
+  }
 }
