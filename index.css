@@ -6,6 +6,7 @@
   color: #ffffff;
 }
 
+
 html {
   scroll-behavior: smooth;
 }
@@ -72,6 +73,7 @@ nav {
   font-weight: 400;
   transition: all 0.3s;
   z-index: 10;
+  transition: 0.3s ease-in-out;
 }
 
 .navContent li {
@@ -79,8 +81,11 @@ nav {
 }
 
 .navContent li a:hover {
-  color: #101b13;
-  transition: 0.3s ease-in-out;
+  color: #101b13 !important;
+}
+
+.navList li a:hover{
+  color: #289a5c !important;
 }
 
 #cross {
@@ -100,8 +105,8 @@ nav {
 }
 
 .heroContent img {
-  margin: 70px auto 0;
-  width: 250px;
+  margin: 30px auto 0;
+  width: 200px;
   height: auto;
 }
 
@@ -117,6 +122,19 @@ nav {
   margin: 20px 10px;
   font-weight: 400;
   line-height: 30px;
+}
+
+.Submit{
+  background-color: #289a5c;
+  font-size: 14px;
+  padding: 10px 30px;
+  border-radius: 20px;
+  transition: 0.3s ease;
+}
+
+.Submit:hover{
+  background-color: #15251d;
+  color: #289a5c !important;
 }
 
 /* About Section */
@@ -203,19 +221,18 @@ nav {
 
 /* ---------------- image section -------------  */
 
-
-.imageSection{
+.imageSection {
   background-color: #101b13;
 }
 
-.imageSection h1{
+.imageSection h1 {
   text-align: center;
   margin-bottom: 40px;
   font-size: 30px;
   font-weight: 600;
 }
 
-.imgGallery{
+.imgGallery {
   height: auto;
   width: 100%;
 }
@@ -244,6 +261,7 @@ nav {
 .para2 {
   margin-bottom: 50px;
   width: 100%;
+  text-align: justify;
 }
 
 /* Statistics Section */
@@ -251,10 +269,11 @@ nav {
   padding: 50px 20px;
   background-color: #101b13;
 }
+
 .stats-section h1 {
   text-align: center;
   position: relative;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   font-size: 30px;
   font-weight: 600;
 }
@@ -269,7 +288,8 @@ nav {
 .statsContent {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  flex-direction: column;
+  align-content: center;
   margin: 50px auto 0;
   width: 300px;
 }
@@ -290,12 +310,15 @@ nav {
   font-weight: 500;
   font-size: 46px;
   line-height: 46px;
+  margin-bottom: 0 !important;
 }
 
 .statsLabel {
+  text-align: center;
   font-weight: 500;
-  font-size: 11px;
-  margin-top: 11px;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 0 !important;
   line-height: 15px;
 }
 
@@ -337,7 +360,7 @@ nav {
 }
 
 .option:hover {
-  opacity: 0.8;
+  opacity: 1;
 }
 
 .active {
@@ -550,7 +573,7 @@ nav {
   left: 0;
   right: 0;
   bottom: 0;
-  width: 70%;
+  width: 80%;
   margin: auto;
   padding: 20px;
   position: relative;
@@ -592,8 +615,10 @@ nav {
 .testimonial .carousel {
   padding-bottom: 50px;
 }
+
 .testimonial .carousel-control-next-icon,
 .testimonial .carousel-control-prev-icon {
+  display: none !important;
   width: 35px;
   height: 35px;
 }
@@ -621,6 +646,7 @@ nav {
 }
 
 .subContactDiv p {
+  margin: 0 !important;
   font-size: 12px;
 }
 
@@ -640,7 +666,8 @@ nav {
   font-size: 10px;
 }
 
-.map{
+.map {
+  margin-bottom: 30px;
   height: 300px;
 }
 /* ------------ tablet size -------------  */
@@ -693,17 +720,17 @@ nav {
   }
 
   .heroContent img {
-    width: 350px;
+    width: 250px;
   }
 
   .heroContent h1 {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .heroContent p {
-    margin: 0 auto;
-    font-size: 20px;
-    line-height: 50px;
+    margin: 0 auto 10px auto;
+    font-size: 16px;
+    line-height: 40px;
   }
 
   .content-div {
@@ -721,6 +748,7 @@ nav {
 
   .para1 {
     margin-right: 20px;
+    text-align: justify;
   }
 
   .rulesContainer {
@@ -734,12 +762,17 @@ nav {
     max-width: 700px;
   }
 
+  .testimonial .carousel-control-next-icon,
+  .testimonial .carousel-control-prev-icon {
+    display: block;
+  }
+
   .keyFlexDiv {
     display: grid;
     grid-template-columns: auto auto auto;
   }
- 
-  .gridGallery{
+
+  .gridGallery {
     max-width: 700px;
     margin: 0 auto;
     padding-bottom: 50px;
@@ -749,13 +782,15 @@ nav {
   }
 
   .statsContent {
+    flex-direction: row;
+    justify-content: space-between;
     width: 700px;
     margin: 50px auto;
   }
 
   .statsDiv {
-    width: 140px;
-    height: 140px;
+    width: 150px;
+    height: 150px;
     border-radius: 5px;
     margin-bottom: 0;
     margin-right: 30px;
@@ -824,11 +859,34 @@ nav {
     max-width: 800px;
     margin: 0 auto;
   }
+
+  .footer p {
+    font-size: 14px;
+  }
 }
 
 @media (min-width: 1024px) {
   nav {
     max-width: 1200px;
+  }
+
+  .heroContent{
+    max-width: 1000px;
+  }
+
+  .heroContent img {
+    width: 300px;
+  }
+
+  .heroContent h1 {
+    font-size: 35px;
+    margin: 20px !important;
+  }
+
+  .heroContent p {
+    margin: 0 auto 10px auto;
+    font-size: 16px;
+    line-height: 40px;
   }
 
   section {
@@ -858,9 +916,9 @@ nav {
     margin-left: 13px;
   }
 
-  .gridGallery{
+  .gridGallery {
     max-width: 1200px;
-    grid-template-columns: repeat(3,auto);
+    grid-template-columns: repeat(3, auto);
   }
 
   .testimonialDiv {
@@ -869,6 +927,11 @@ nav {
 
   .testimonialPara {
     font-size: 14px;
+  }
+
+  .statsContent {
+    width: 800px;
+    max-width: 1000px;
   }
 
   .contactDiv {
@@ -892,10 +955,10 @@ nav {
     max-width: 1200px;
   }
 
-  .map{
+  .map {
     height: 400px;
     max-width: 1200px;
-    margin:0 auto;
+    margin: 0 auto;
   }
 }
 
