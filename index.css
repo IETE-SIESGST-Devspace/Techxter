@@ -153,7 +153,7 @@ nav {
   background-color: #289a5c;
   text-align: center;
   margin: 0 20px 50px 0;
-  width: 120px;
+  width: 140px;
   height: 50px;
 }
 
@@ -213,20 +213,19 @@ nav {
   width: fit-content;
   margin: 0 auto;
   font-weight: normal;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .statsContent {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 330px;
   margin: 50px auto 0;
 }
 
 .statsDiv {
-  width: 140px;
-  height: 140px;
+  width: 120px;
+  height: 120px;
   background-color: #289a5c;
   border-radius: 5px;
   margin-bottom: 50px;
@@ -244,7 +243,8 @@ nav {
 
 .statsLabel {
   font-weight: 500;
-  font-size: 12px;
+  font-size: 11px;
+  margin-top: 11px;
   line-height: 15px;
 }
 
@@ -627,16 +627,13 @@ input:-internal-autofill-selected {
 
   .keyFlexDiv {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     justify-content: center;
-    grid-gap: 100px;
+    grid-gap: 50px;
     margin-top: 80px;
   }
 
   .statsContent {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     width: 700px;
     margin: 50px auto;
   }
@@ -644,13 +641,17 @@ input:-internal-autofill-selected {
   .statsDiv {
     width: 140px;
     height: 140px;
-    background-color: #289a5c;
     border-radius: 5px;
     margin-bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    margin-right: 30px;
+  }
+
+  #lastDiv{
+    margin-right: 0;
+  }
+
+  #last{
+    margin-right: 0;
   }
 
   .option {
@@ -666,7 +667,7 @@ input:-internal-autofill-selected {
     margin: 0 auto;
   }
 
-  .testiomonialDiv {
+  .testimonialDiv {
     margin: 0 auto;
     max-width: 700px;
     margin-bottom: 40px;
@@ -750,6 +751,11 @@ input:-internal-autofill-selected {
   .lists li {
     font-size: 14px;
     margin-left: 13px;
+  }
+
+  .keyFlexDiv{
+    grid-template-columns: repeat(6, auto);
+    grid-gap: 20px;
   }
 
   .testimonialDiv{
