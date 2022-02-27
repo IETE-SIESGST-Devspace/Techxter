@@ -1,18 +1,18 @@
-let navlist = document.querySelector(".navList");
-let openicon = document.querySelector(".open");
-let closeicon = document.querySelector("#cross");
+let navContent = document.querySelector(".navContent");
+let openIcon = document.querySelector(".open");
+let closeIcon = document.querySelector("#cross");
 
-openicon.addEventListener("click", show);
+openIcon.addEventListener("click", show);
 
 function show() {
-  // navlist.style.display = 'flex';
-  navlist.style.left = "0";
+  // navContent.style.display = 'flex';
+  navContent.style.left = "0";
 }
 
-closeicon.addEventListener("click", shut);
+closeIcon.addEventListener("click", shut);
 
 function shut() {
-  navlist.style.left = "-100%";
+  navContent.style.left = "-100%";
 }
 
 function openDiv(evt, Name) {
@@ -31,3 +31,10 @@ function openDiv(evt, Name) {
   document.getElementById(Name).style.display = "block";
   evt.currentTarget.className += " active";
 }
+
+// AOS
+AOS.init({
+  offset: 20, // offset (in px) from the original trigger point
+  duration: 100, // values from 0 to 3000, with step 50ms
+  once: true, // whether animation should happen only once - while scrolling down
+});
