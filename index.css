@@ -208,15 +208,17 @@ nav {
 
 .keyNumber {
   position: absolute;
-  top: -45px;
+  top: -39px;
   left: -5px;
   font-size: 50px;
   font-weight: 500;
   color: #cfd6e3;
+  margin-bottom:0px !important;
 }
 
 .keyPara {
   font-size: 14px;
+  margin-bottom: 0px !important;
 }
 
 /* ---------------- image section -------------  */
