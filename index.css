@@ -37,7 +37,7 @@ a {
 
 .hero-section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("./assets/hero-min.jpeg");
+    url("./assets/hero.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -595,6 +595,7 @@ nav {
   text-align: center;
   position: relative;
   border-radius: 50%;
+  object-fit: cover;
   box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.23);
   -moz-box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.23);
   -o-box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.23);
@@ -864,6 +865,9 @@ nav {
 
   .footer p {
     font-size: 14px;
+  }
+  .testimonial4_slide p {
+    height: auto;
   }
 }
 
