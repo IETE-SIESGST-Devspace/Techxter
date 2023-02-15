@@ -55,7 +55,7 @@ nav {
 }
 
 .logo {
-  height: 40px;
+  height: 60px;
   width: auto;
 }
 
@@ -161,7 +161,8 @@ nav {
 
 .about-section {
   padding: 50px 20px;
-  background-color: #15251d;
+  /* background-color: #15251d; */
+  background-color: #0C0937;
 }
 
 .about-section h1 {
@@ -193,7 +194,8 @@ nav {
 
 .keySection {
   padding: 50px 20px;
-  background-color: #101b13;
+  /* background-color: #101b13; */
+  background-color: #000310;
 }
 
 .keySection h1 {
@@ -503,7 +505,7 @@ nav {
 /* ---------------- image section -------------  */
 
 .imageSection {
-  background-color: #101b13;
+  background-color: #000310;
   padding: 50px 20px;
 }
 
@@ -522,7 +524,7 @@ nav {
 /* Who Section */
 .who-section {
   padding: 50px 20px;
-  background-color: #15251d;
+  background-color: #0C0937;
 }
 .who-section h1 {
   text-align: center;
@@ -549,7 +551,7 @@ nav {
 /* Statistics Section */
 .stats-section {
   padding: 50px 20px;
-  background-color: #101b13;
+  background-color: #000310;
 }
 
 .stats-section h1 {
@@ -607,7 +609,7 @@ nav {
 /* Rules Section */
 
 .rules {
-  background: #15251d;
+  background: #0C0937;
   padding: 50px 20px;
 }
 
@@ -910,7 +912,7 @@ nav {
 
 .sponsor-section {
   padding: 50px 20px;
-  background-color: #15251d;
+  background-color: #0C0937;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -960,7 +962,7 @@ nav {
 }
 
 .footer {
-  background-color: #15251d;
+  background-color: #0C0937;
   padding: 20px;
   text-align: center;
 }
