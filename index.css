@@ -64,7 +64,7 @@ nav {
   top: 0;
   left: -100%;
   width: 100%;
-  background-color: #289a5c;
+  background-color: #5ffab7;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -84,7 +84,7 @@ nav {
 }
 
 .navList li a:hover {
-  color: #289a5c !important;
+  color: #5ffab7 !important;
 }
 
 #cross {
@@ -162,7 +162,7 @@ nav {
 .about-section {
   padding: 50px 20px;
   /* background-color: #15251d; */
-  background-color: #0C0937;
+  background-color: #0F113A;
 }
 
 .about-section h1 {
@@ -195,7 +195,7 @@ nav {
 .keySection {
   padding: 50px 20px;
   /* background-color: #101b13; */
-  background-color: #000310;
+  background-color: #01020A;
 }
 
 .keySection h1 {
@@ -215,7 +215,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #289a5c;
+  background-color: #5ffab7;
   text-align: center;
   margin: 0 20px 50px 0;
   width: 140px;
@@ -280,7 +280,7 @@ nav {
   margin: 0;
   padding: 30px 0;
   text-align: center;
-  background: #289a5c;
+  background: #5ffab7;
   border-radius: 100px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
   color: #ffffff;
@@ -306,7 +306,7 @@ nav {
   top: 0;
   left: 50%;
   margin-left: -1px;
-  background: #289a5c;
+  background: #5ffab7;
 }
 
 .timeline .row.timeline-left,
@@ -333,7 +333,7 @@ nav {
   width: 14px;
   height: 14px;
   top: 45px;
-  background: #289a5c;
+  background: #5ffab7;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
   border-radius: 15px;
   z-index: 1;
@@ -353,7 +353,7 @@ nav {
   display: inline-block;
   margin: 15px;
   padding: 20px;
-  border: 1px solid #289a5c;
+  border: 1px solid #5ffab7;
   border-radius: 6px;
   color: #fff;
 }
@@ -395,22 +395,22 @@ nav {
 
 .timeline .timeline-box::after {
   top: 26px;
-  border-color: transparent transparent transparent #289a5c;
+  border-color: transparent transparent transparent #5ffab7;
   border-width: 10px;
 }
 
 .timeline .timeline-box::before {
   top: 25px;
-  border-color: transparent transparent transparent #289a5c;
+  border-color: transparent transparent transparent #5ffab7;
   border-width: 11px;
 }
 
 .timeline .row.timeline-right .timeline-box::after {
-  border-color: transparent #289a5c transparent transparent;
+  border-color: transparent #5ffab7 transparent transparent;
 }
 
 .timeline .row.timeline-right .timeline-box::before {
-  border-color: transparent #289a5c transparent transparent;
+  border-color: transparent #5ffab7 transparent transparent;
 }
 
 .timeline .timeline-launch .timeline-box::after {
@@ -487,12 +487,12 @@ nav {
 
   .timeline .row.timeline-left .timeline-box::after {
     left: -20px;
-    border-color: transparent #289a5c transparent transparent;
+    border-color: transparent #5ffab7 transparent transparent;
   }
 
   .timeline .row.timeline-left .timeline-box::before {
     left: -22px;
-    border-color: transparent #289a5c transparent transparent;
+    border-color: transparent #5ffab7 transparent transparent;
   }
 
   .timeline .timeline-launch .timeline-box::after,
@@ -505,7 +505,7 @@ nav {
 /* ---------------- image section -------------  */
 
 .imageSection {
-  background-color: #000310;
+  background-color: #01020A;
   padding: 50px 20px;
 }
 
@@ -524,7 +524,7 @@ nav {
 /* Who Section */
 .who-section {
   padding: 50px 20px;
-  background-color: #0C0937;
+  background-color: #0F113A;
 }
 .who-section h1 {
   text-align: center;
@@ -551,7 +551,7 @@ nav {
 /* Statistics Section */
 .stats-section {
   padding: 50px 20px;
-  background-color: #000310;
+  background-color: #01020A;
 }
 
 .stats-section h1 {
@@ -581,7 +581,7 @@ nav {
 .statsDiv {
   width: 120px;
   height: 120px;
-  background-color: #289a5c;
+  background-color: #5ffab7;
   border-radius: 5px;
   margin-bottom: 50px;
   display: flex;
@@ -609,7 +609,7 @@ nav {
 /* Rules Section */
 
 .rules {
-  background: #0C0937;
+  background: #0F113A;
   padding: 50px 20px;
 }
 
@@ -631,7 +631,7 @@ nav {
 }
 
 .option {
-  background-color: #289a5c;
+  background-color: #5ffab7;
   height: 80px;
   margin: 20px 0;
   padding: 5px;
@@ -912,7 +912,7 @@ nav {
 
 .sponsor-section {
   padding: 50px 20px;
-  background-color: #0C0937;
+  background-color: #0F113A;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -950,7 +950,7 @@ nav {
 }
 
 .contactLogo {
-  background-color: #289a5c;
+  background-color: #5ffab7;
   padding: 10px;
   border-radius: 50%;
   margin-right: 30px;
@@ -962,7 +962,7 @@ nav {
 }
 
 .footer {
-  background-color: #0C0937;
+  background-color: #0F113A;
   padding: 20px;
   text-align: center;
 }
