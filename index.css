@@ -190,6 +190,25 @@ nav {
 .about-content p {
   font-size: 13px;
 }
+.horizontal-line {
+  height: 3px;
+  background-color: white;
+  border-radius: 5px;
+  width: 40%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  margin-top: -25px;
+  /* display: none; */
+  /* align-items: center; */
+
+}
+
+/* acceptance section */
+
+.acceptance-detail > h4{
+  font-size: 15px;
+}
+
 /* key highlight section  */
 
 .keySection {
@@ -500,6 +519,10 @@ nav {
     left: 30px;
     margin-left: 0;
   }
+
+  
+  
+
 }
 
 /* ---------------- image section -------------  */
@@ -1223,6 +1246,10 @@ nav {
   .seconds h4 {
     font-size: 0.9em;
   }
+  .acceptance-detail > h4{
+    font-size: 15px;
+    margin-left: 20px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1333,6 +1360,22 @@ nav {
     height: 400px;
     max-width: 1200px;
     margin: 0 auto;
+  }
+  .acceptance-detail > h4{
+    font-size: 20px;
+    /* margin-left: 20px; */
+    text-align: center;
+  }
+  .horizontal-line {
+    /* height: 3px;
+    background-color: white;
+    border-radius: 5px;
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 20px; */
+    display: block;
+    /* align-items: center; */
+  
   }
 }
 
