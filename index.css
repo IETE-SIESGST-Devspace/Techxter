@@ -23,7 +23,7 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #289a5c;
+  background: #AEB9BF;
   border-radius: 5px;
   width: 5px;
   height: 5px;
@@ -105,8 +105,8 @@ nav {
 }
 
 .heroContent img {
-  margin: 30px auto 0;
-  width: 480px;
+  margin: 10px auto 0;
+  width: 350px;
   height: auto;
 }
 
