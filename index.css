@@ -55,9 +55,10 @@ nav {
 }
 
 .logo {
-  height: 60px;
-  width: auto;
+  height: auto;
+  width: 250px;
 }
+
 
 .navContent {
   position: absolute;
@@ -105,7 +106,7 @@ nav {
 
 .heroContent img {
   margin: 30px auto 0;
-  width: 200px;
+  width: 480px;
   height: auto;
 }
 
@@ -162,7 +163,7 @@ nav {
 .about-section {
   padding: 50px 20px;
   /* background-color: #15251d; */
-  background-color: #0F113A;
+  background-color: #121212;
 }
 
 .about-section h1 {
@@ -214,7 +215,7 @@ nav {
 .keySection {
   padding: 50px 20px;
   /* background-color: #101b13; */
-  background-color: #01020A;
+  background-color: #832D90;
 }
 
 .keySection h1 {
@@ -234,7 +235,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #5ffab7;
+  background-color: #AEB9BF;
   text-align: center;
   margin: 0 20px 50px 0;
   width: 140px;
@@ -372,7 +373,7 @@ nav {
   display: inline-block;
   margin: 15px;
   padding: 20px;
-  border: 1px solid #5ffab7;
+  border: 1px solid #AEB9BF;
   border-radius: 6px;
   color: #fff;
 }
@@ -414,22 +415,22 @@ nav {
 
 .timeline .timeline-box::after {
   top: 26px;
-  border-color: transparent transparent transparent #5ffab7;
+  border-color: transparent transparent transparent #AEB9BF;
   border-width: 10px;
 }
 
 .timeline .timeline-box::before {
   top: 25px;
-  border-color: transparent transparent transparent #5ffab7;
+  border-color: transparent transparent transparent #AEB9BF;
   border-width: 11px;
 }
 
 .timeline .row.timeline-right .timeline-box::after {
-  border-color: transparent #5ffab7 transparent transparent;
+  border-color: transparent #AEB9BF transparent transparent;
 }
 
 .timeline .row.timeline-right .timeline-box::before {
-  border-color: transparent #5ffab7 transparent transparent;
+  border-color: transparent #AEB9BF transparent transparent;
 }
 
 .timeline .timeline-launch .timeline-box::after {
@@ -528,7 +529,7 @@ nav {
 /* ---------------- image section -------------  */
 
 .imageSection {
-  background-color: #01020A;
+  background-color: #832D90;
   padding: 50px 20px;
 }
 
@@ -547,7 +548,7 @@ nav {
 /* Who Section */
 .who-section {
   padding: 50px 20px;
-  background-color: #0F113A;
+  background-color: #121212;
 }
 .who-section h1 {
   text-align: center;
@@ -574,7 +575,7 @@ nav {
 /* Statistics Section */
 .stats-section {
   padding: 50px 20px;
-  background-color: #01020A;
+  background-color: #832D90;
 }
 
 .stats-section h1 {
@@ -604,7 +605,7 @@ nav {
 .statsDiv {
   width: 120px;
   height: 120px;
-  background-color: #5ffab7;
+  background-color: #AEB9BF;
   border-radius: 5px;
   margin-bottom: 50px;
   display: flex;
@@ -632,7 +633,7 @@ nav {
 /* Rules Section */
 
 .rules {
-  background: #0F113A;
+  background: #121212;
   padding: 50px 20px;
 }
 
@@ -654,7 +655,7 @@ nav {
 }
 
 .option {
-  background-color: #5ffab7;
+  background-color: #AEB9BF;
   height: 80px;
   margin: 20px 0;
   padding: 5px;
@@ -935,7 +936,7 @@ nav {
 
 .sponsor-section {
   padding: 50px 20px;
-  background-color: #0F113A;
+  background-color: #121212;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -973,7 +974,7 @@ nav {
 }
 
 .contactLogo {
-  background-color: #5ffab7;
+  background-color: #AEB9BF;
   padding: 10px;
   border-radius: 50%;
   margin-right: 30px;
@@ -985,13 +986,13 @@ nav {
 }
 
 .footer {
-  background-color: #0F113A;
+  background-color: #121212;
   padding: 20px;
   text-align: center;
 }
 
 .footer img {
-  width: 150px;
+  width: 250px;
   height: auto;
 }
 
@@ -1078,7 +1079,7 @@ nav {
   }
 
   .heroContent img {
-    width: 250px;
+    width: 550px;
   }
 
   .heroContent h1 {
@@ -1276,7 +1277,7 @@ nav {
   }
 
   .heroContent img {
-    width: 300px;
+    width: 600px;
   }
 
   .heroContent h1 {
