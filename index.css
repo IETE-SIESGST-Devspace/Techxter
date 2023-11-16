@@ -56,7 +56,8 @@ nav {
 
 .logo {
   height: auto;
-  width: 250px;
+  width: 150px;
+  margin-left: -10px;
 }
 
 
@@ -106,7 +107,7 @@ nav {
 
 .heroContent img {
   margin: 10px auto 0;
-  width: 350px;
+  width: 300px;
   height: auto;
 }
 
@@ -992,7 +993,7 @@ nav {
 }
 
 .footer img {
-  width: 250px;
+  width: 150px;
   height: auto;
 }
 
@@ -1079,7 +1080,7 @@ nav {
   }
 
   .heroContent img {
-    width: 550px;
+    width: 450px;
   }
 
   .heroContent h1 {
@@ -1277,7 +1278,7 @@ nav {
   }
 
   .heroContent img {
-    width: 600px;
+    width: 500px;
   }
 
   .heroContent h1 {
