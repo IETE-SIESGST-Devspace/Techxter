@@ -216,7 +216,8 @@ nav {
 .keySection {
   padding: 50px 20px;
   /* background-color: #101b13; */
-  background-color: #832D90;
+  background-color: #3AE2EC;
+  /* 832D90 */
 }
 
 .keySection h1 {
@@ -236,7 +237,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #AEB9BF;
+  background-color: #121212;
   text-align: center;
   margin: 0 20px 50px 0;
   width: 140px;
@@ -530,7 +531,7 @@ nav {
 /* ---------------- image section -------------  */
 
 .imageSection {
-  background-color: #832D90;
+  background-color: #F6E15A;
   padding: 50px 20px;
 }
 
@@ -576,7 +577,7 @@ nav {
 /* Statistics Section */
 .stats-section {
   padding: 50px 20px;
-  background-color: #832D90;
+  background-color: #3AE2EC;
 }
 
 .stats-section h1 {
@@ -606,7 +607,7 @@ nav {
 .statsDiv {
   width: 120px;
   height: 120px;
-  background-color: #AEB9BF;
+  background-color: #121212;
   border-radius: 5px;
   margin-bottom: 50px;
   display: flex;
@@ -724,6 +725,10 @@ nav {
 /* ------------------- Testimonial ----------------------  */
 .white-heading {
   color: #ffffff;
+}
+
+#testimonial{
+  background-color: #F6E15A;
 }
 
 .white-heading:after {
@@ -856,6 +861,11 @@ nav {
   color: #000;
   background: #fff;
   border: 2px solid #fff;
+}
+
+.yellow-head{
+  color: #121212;
+  
 }
 
 .testimonial4_header {
