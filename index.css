@@ -216,7 +216,7 @@ nav {
 .keySection {
   padding: 50px 20px;
   /* background-color: #101b13; */
-  background-color: #3AE2EC;
+  background: linear-gradient(45deg,#A087FF, 15%,#242132);
   /* 832D90 */
 }
 
@@ -531,7 +531,7 @@ nav {
 /* ---------------- image section -------------  */
 
 .imageSection {
-  background-color: #F6E15A;
+  background: linear-gradient(225deg,#242132, 68%,#A087ff);
   padding: 50px 20px;
 }
 
@@ -577,7 +577,7 @@ nav {
 /* Statistics Section */
 .stats-section {
   padding: 50px 20px;
-  background-color: #3AE2EC;
+  background: linear-gradient(45deg,#A087FF, 15%,#242132);
 }
 
 .stats-section h1 {
@@ -614,7 +614,10 @@ nav {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  
+  
 }
+
 
 .statsNumber {
   font-weight: 500;
@@ -863,10 +866,7 @@ nav {
   border: 2px solid #fff;
 }
 
-.yellow-head{
-  color: #121212;
-  
-}
+
 
 .testimonial4_header {
   top: 0;
