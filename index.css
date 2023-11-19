@@ -37,8 +37,9 @@ a {
 }
 
 .hero-section {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("./assets/techxter_website_img.png");
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./assets/techxter_website_img_1.png"); */
+    background-image: url("./assets/techxter_website_img_1.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -304,7 +305,7 @@ nav {
   margin: 0;
   padding: 30px 0;
   text-align: center;
-  background: #121212;
+  background: #AEB9BF;
   border-radius: 100px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
   color: #ffffff;
@@ -357,7 +358,7 @@ nav {
   width: 14px;
   height: 14px;
   top: 45px;
-  background: #121212;
+  background: #AEB9BF;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
   border-radius: 15px;
   z-index: 1;
@@ -377,7 +378,7 @@ nav {
   display: inline-block;
   margin: 15px;
   padding: 20px;
-  border: 1px solid #121212;
+  border: 1px solid #AEB9BF;
   border-radius: 6px;
   color: #fff;
 }
@@ -419,22 +420,22 @@ nav {
 
 .timeline .timeline-box::after {
   top: 26px;
-  border-color: transparent transparent transparent #121212;
+  border-color: transparent transparent transparent #AEB9BF;
   border-width: 10px;
 }
 
 .timeline .timeline-box::before {
   top: 25px;
-  border-color: transparent transparent transparent #121212;
+  border-color: transparent transparent transparent #AEB9BF;
   border-width: 11px;
 }
 
 .timeline .row.timeline-right .timeline-box::after {
-  border-color: transparent #121212 transparent transparent;
+  border-color: transparent #AEB9BF transparent transparent;
 }
 
 .timeline .row.timeline-right .timeline-box::before {
-  border-color: transparent #121212 transparent transparent;
+  border-color: transparent #AEB9BF transparent transparent;
 }
 
 .timeline .timeline-launch .timeline-box::after {
@@ -511,12 +512,12 @@ nav {
 
   .timeline .row.timeline-left .timeline-box::after {
     left: -20px;
-    border-color: transparent #121212 transparent transparent;
+    border-color: transparent #AEB9BF transparent transparent;
   }
 
   .timeline .row.timeline-left .timeline-box::before {
     left: -22px;
-    border-color: transparent #121212 transparent transparent;
+    border-color: transparent #AEB9BF transparent transparent;
   }
 
   .timeline .timeline-launch .timeline-box::after,
