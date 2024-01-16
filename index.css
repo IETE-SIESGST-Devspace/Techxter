@@ -546,6 +546,8 @@ nav {
 }
 
 .imgGallery {
+  object-fit: cover;
+  aspect-ratio: 8/6;
   height: auto;
   width: 100%;
 }
