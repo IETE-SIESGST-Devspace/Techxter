@@ -39,7 +39,7 @@ a {
 .hero-section {
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("./assets/techxter_website_img_1.png"); */
-    background-image: url("./assets/techxter_website_img_2.png");
+    background-image: url("./assets/Techxter_Website_Background.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -100,7 +100,7 @@ nav {
 
 .heroContent {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   flex-direction: column;
   text-align: center;
@@ -167,7 +167,7 @@ nav {
 .about-section {
   padding: 50px 20px;
   /* background-color: #15251d; */
-  background-color: #121212;
+  background: rgb(1, 1, 3);
 }
 
 .about-section h1 {
@@ -185,10 +185,12 @@ nav {
 }
 
 .about-content img {
+  object-fit: cover;
+  aspect-ratio: 1;
   width: 280px;
   height: 280px;
-  margin: 0 auto 20px auto;
-  background: #c4c4c4;
+  margin-right: 30px;
+  margin-bottom: 50px;
   border-radius: 20px;
 }
 
@@ -219,7 +221,9 @@ nav {
 .keySection {
   padding: 50px 20px;
   /* background-color: #101b13; */
-  background: linear-gradient(45deg,#A087FF, 25%,#242132);
+  background: linear-gradient(135deg, rgb(255, 186, 219) 0%, rgb(209, 63, 133) 100%);
+
+  /* background: linear-gradient(45deg,#A087FF, 25%,#242132); */
   /* 832D90 */
 }
 
@@ -246,6 +250,8 @@ nav {
   width: 140px;
   height: 50px;
   cursor: default;
+  box-shadow: rgba(0, 0, 0, 0.23) -6px 6px 6px;
+
 }
 
 .keyDiv:hover {
@@ -259,7 +265,7 @@ nav {
   left: -5px;
   font-size: 50px;
   font-weight: 500;
-  color: #cfd6e3;
+  color: #dee2e6;
   margin-bottom: 0px !important;
 }
 
@@ -280,6 +286,8 @@ nav {
   margin-bottom: 40px;
   font-size: 30px;
   font-weight: 600;
+  background: rgb(1, 1, 3);
+
 }
 
 .timeline .timeline-container {
@@ -331,7 +339,7 @@ nav {
   top: 0;
   left: 50%;
   margin-left: -1px;
-  background: #A087FF;
+  background: #ff61c1;
 }
 
 .timeline .row.timeline-left,
@@ -534,7 +542,7 @@ nav {
 /* ---------------- image section -------------  */
 
 .imageSection {
-  background: linear-gradient(225deg,#242132, 68%,#A087ff);
+  background: linear-gradient(135deg, rgb(255, 186, 219) 0%, rgb(209, 63, 133) 100%);
   padding: 50px 20px;
 }
 
@@ -555,7 +563,7 @@ nav {
 /* Who Section */
 .who-section {
   padding: 50px 20px;
-  background-color: #121212;
+  background: rgb(1, 1, 3);
 }
 .who-section h1 {
   text-align: center;
@@ -582,7 +590,7 @@ nav {
 /* Statistics Section */
 .stats-section {
   padding: 50px 20px;
-  background: linear-gradient(45deg,#A087FF, 15%,#242132);
+  background: linear-gradient(135deg, rgb(255, 186, 219) 0%, rgb(209, 63, 133) 100%);
 }
 
 .stats-section h1 {
@@ -619,7 +627,7 @@ nav {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
+  box-shadow: rgba(0, 0, 0, 0.23) -6px 6px 6px;
   
 }
 
@@ -643,7 +651,7 @@ nav {
 /* Rules Section */
 
 .rules {
-  background: #121212;
+  background: rgb(1, 1, 3);
   padding: 50px 20px;
 }
 
@@ -952,7 +960,7 @@ nav {
 
 .sponsor-section {
   padding: 50px 20px;
-  background-color: #121212;
+  background: rgb(1, 1, 3);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1002,7 +1010,7 @@ nav {
 }
 
 .footer {
-  background-color: #121212;
+  background: rgb(1, 1, 3);
   padding: 20px;
   text-align: center;
 }
@@ -1154,6 +1162,10 @@ nav {
     display: grid;
     grid-template-columns: repeat(2, auto);
     grid-gap: 20px;
+  }
+  .gridGallery img{
+    box-shadow: rgba(0, 0, 0, 0.23) -6px 6px 6px;
+    border-radius: 5px;
   }
 
   .statsContent {
