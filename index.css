@@ -17,7 +17,7 @@ html {
   height: 5px;
 }
 
-::-webkit-scrollbar-track {
+body::-webkit-scrollbar-track {
   background: #101b13;
   width: 5px;
   border-radius: 0px;
@@ -940,6 +940,20 @@ nav {
   font-size: 14px;
   overflow: auto;
 }
+.testimonial4_slide p::-webkit-scrollbar {
+  width: 3px;
+  /* background: #101b13; */
+  }
+.testimonial4_slide p::-webkit-slider-thumb{
+  background: #121212;
+  border-radius: 5px;
+  width: 5px;
+  height: 5px;
+  }
+.testimonial4_slide p::-webkit-scrollbar-track {
+  background:transparent;
+}
+
 .testimonial4_slide h4 {
   color: #ffffff;
   font-size: 22px;
@@ -1260,7 +1274,13 @@ nav {
   }
   .testimonial4_slide p {
     height: auto;
-  }
+    overflow-y: hidden;
+  } 
+  .testimonial4_slide p::-webkit-scrollbar {
+    -ms-overflow-style: none;
+    width: 0 !important;
+    overflow: -moz-scrollbars-none;
+    }
 
   .days h2,
   .hours h2,
