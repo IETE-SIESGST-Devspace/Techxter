@@ -42,7 +42,7 @@ AOS.init({
 // Hackathon Date CountDown
 
 // Date we're counting down to
-var countDownDate = new Date("March 17, 2023 12:00:00").getTime();
+var countDownDate = new Date("March 22, 2024 12:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function () {
