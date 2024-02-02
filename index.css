@@ -37,8 +37,6 @@ a {
 }
 
 .hero-section {
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("./assets/techxter_website_img_1.png"); */
     background-image: url("./assets/Techxter_Website_Background.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -66,10 +64,11 @@ nav {
 
 .navContent {
   position: absolute;
+  padding-top: 23px;
   top: 0;
   left: -100%;
   width: 100%;
-  background-color: #5ffab7;
+  background: linear-gradient(135deg, rgb(255, 186, 219) 0%, rgb(209, 63, 133) 100%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -82,19 +81,25 @@ nav {
 
 .navContent li {
   margin: 20px auto;
+  
 }
 
 .navContent li a:hover {
-  color: #101b13 !important;
+  color: #ffffff !important;
+  border-bottom: #ffffff;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-style: solid;
 }
-
+/* SUU!!! */
 .navList li a:hover {
-  color: #5ffab7 !important;
+  color:  rgb(248, 107, 175) !important;
 }
 
 #cross {
   position: absolute;
-  top: 20px;
+  top: 46px;
   right: 20px;
 }
 
@@ -134,7 +139,7 @@ nav {
 }
 
 .Submit {
-  background-color: #289a5c;
+  background-color:rgb(248, 107, 175);
   font-size: 14px;
   padding: 10px 30px;
   border-radius: 20px;
@@ -143,7 +148,7 @@ nav {
 
 .Submit:hover {
   background-color: #15251d;
-  color: #289a5c !important;
+  color: rgb(248, 107, 175) !important;
 }
 
 .days h2,
@@ -234,6 +239,9 @@ nav {
   margin:  -13px;
   margin-left: 4px;
   cursor: pointer;
+}
+.button:hover{
+  background: rgba(15, 26, 18,0.4);
 }
 
 /* key highlight section  */
@@ -845,7 +853,7 @@ nav {
   height: 14px;
   border: none;
   margin: 2px 3px;
-  background-color: #9dd3af;
+  background-color: #d39dbb;
   -webkit-border-radius: 100%;
   border-radius: 100%;
 }
@@ -1128,7 +1136,7 @@ nav {
   }
 
   .navList li a:hover {
-    color: #15251d;
+    color: #0c100e;
   }
 
   .heroContent {
