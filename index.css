@@ -224,6 +224,7 @@ nav {
 
 .acceptance-detail > h4{
   font-size: 15px;
+  text-align: center;
 }
 
 .button {
@@ -566,6 +567,7 @@ nav {
   
 
 }
+
 
 /* ---------------- image section -------------  */
 
@@ -1007,10 +1009,24 @@ nav {
   flex-direction: column;
   align-items: center;
 }
+.tray-sponsor{
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.sp{
+  padding: 20px;
+}
 
-.sponsor-section img {
-  width: 250px;
+.sp img {
   height: auto;
+  object-fit: contain;
+  object-position:center ;
+  aspect-ratio: 1;
+  padding: 40px;
+  /* background-position: center; */
 }
 
 .sponsor-section h1 {
@@ -1019,11 +1035,30 @@ nav {
   font-weight: 600;
 }
 
-.sponsor-section p {
+.sp p {
+  text-align: center;
+  padding-top: 20px;
   font-size: 15px;
   font-weight: 600;
 }
+@media (min-width: 450px) and (max-width: 768px) {
+  .sp img{
+    height: 300px;
+    width: 300px;
+  object-fit: contain;
+  object-position:center ;
+  aspect-ratio: 1;
+  padding: 40px;
+  }
+  .sp p{
+    font-size: 20px;
+  }
+  .tray-sponsor {
+    justify-content: center;
+  }
 
+  
+}
 /* ------------------- FOOTER SECTION -------------------  */
 
 .contactDiv {
@@ -1264,14 +1299,16 @@ nav {
   .testimonialSubDiv p {
     font-size: 12px;
   }
-
+  
   .sponsor-section img {
     width: 300px;
   }
-
-  .sponsor-section p {
-    font-size: 20px;
-  }
+.tray-sponsor{
+  justify-content: center;
+}
+.sponsor-section p {
+      font-size: 20px;
+    }
 
   .subContactDiv {
     margin-right: 30px;
@@ -1326,6 +1363,7 @@ nav {
   .acceptance-detail > h4{
     font-size: 15px;
     margin-left: 20px;
+    text-align: center;
   }
 }
 
