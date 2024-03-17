@@ -105,7 +105,7 @@ nav {
 
 .heroContent {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
@@ -1180,6 +1180,7 @@ nav {
 
   .heroContent {
     margin: 0 auto;
+    
     max-width: 600px;
   }
 
