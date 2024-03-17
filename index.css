@@ -1041,7 +1041,7 @@ nav {
   font-size: 15px;
   font-weight: 600;
 }
-@media (min-width: 450px) and (max-width: 768px) {
+@media (min-width: 10px) and (max-width: 768px) {
   .sp img{
     height: 300px;
     width: 300px;
@@ -1057,6 +1057,10 @@ nav {
     justify-content: center;
   }
 
+  
+}
+
+@media screen (){
   
 }
 /* ------------------- FOOTER SECTION -------------------  */
